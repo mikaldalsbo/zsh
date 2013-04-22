@@ -1,0 +1,12 @@
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "ls--"]
+	path = ls--
+	url = git://github.com/trapd00r/ls--.git
+[submodule "zsh-syntax-highlighting-filetypes"]
+	path = zsh-syntax-highlighting-filetypes
+	url = git://github.com/trapd00r/zsh-syntax-highlighting-filetypes.git
+[submodule "LS_COLORS"]
+	path = LS_COLORS
+	url = git://github.com/trapd00r/LS_COLORS.git

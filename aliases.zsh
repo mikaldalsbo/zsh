@@ -7,6 +7,7 @@ alias grep='grep --color=auto'
 # Better Output
 alias df="pydf -H"
 alias free='free -mt'
+alias tmux='tmux -2'
 
 # Sublime Text
 #alias subl='st'
@@ -33,13 +34,13 @@ alias c='clear'
 alias svim='sudo vim'
 
 # Pacman
-alias pacman='sudo pacman-color'
-alias up='sudo pacman-color -Syu'
-alias mup='sudo pacman-color -Syy'
-alias ins='sudo pacman-color -S'
-alias pas='sudo pacman-color -Ss'
-alias packs='sudo pacman-color -Q'
-alias aur='sudo pacman-color -Qm'
+alias pacman='sudo pacman'
+alias up='sudo pacman -Syu'
+alias mup='sudo pacman -Syy'
+alias ins='sudo pacman -S'
+alias pas='sudo pacman -Ss'
+alias packs='sudo pacman -Q'
+alias aur='sudo pacman -Qm'
 
 # Yaourt
 alias yup='yaourt -Syu --aur'

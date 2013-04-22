@@ -23,11 +23,11 @@ autoload -U promptinit && promptinit
 autoload -U vcs_info && vcs_info
 compinit
 promptinit
-export LS_COLORS 
+#export LS_COLORS 
 export LANG=en_US.UTF-8
 
 # Dircolors
-eval $( dircolors -b $HOME/.zsh/LS_COLORS )
+#eval $( dircolors -b $HOME/.zsh/LS_COLORS )
 
 case $HOST in
     MBP.local)
