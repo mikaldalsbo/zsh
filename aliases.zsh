@@ -33,6 +33,9 @@ alias wget='wget -c'
 alias c='clear'
 alias svim='sudo vim'
 
+# Python Quick Web Server (Perfect for sharing files via HTTP fast & easy!)
+alias sharethis='python -m http.server'
+
 # Pacman
 alias pacman='sudo pacman'
 alias up='sudo pacman -Syu'

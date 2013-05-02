@@ -46,4 +46,6 @@ vt=$(fgconsole 2>/dev/null)
 (( vt == 1 )) && exec startx -- vt$vt &> ~/.xlog
 unset vt
 #export CCACHE_DIR=/tmp
-
+#
+# Fixing Tmux window name bug
+DISABLE_AUTO_TITLE=true
