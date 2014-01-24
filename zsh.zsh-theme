@@ -30,7 +30,7 @@ export LANG=en_US.UTF-8
 #eval $( dircolors -b $HOME/.zsh/LS_COLORS )
 
 case $HOST in
-    MBP.local)
+    Thinkpad-T430s)
         hostcolor=green
     ;;
     archserver)

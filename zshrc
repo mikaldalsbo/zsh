@@ -33,19 +33,7 @@ plugins=(git svn)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
-export PERL_LOCAL_LIB_ROOT="$PERL_LOCAL_LIB_ROOT:/home/mikal/perl5";
-export PERL_MB_OPT="--install_base /home/mikal/perl5";
-export PERL_MM_OPT="INSTALL_BASE=/home/mikal/perl5";
-export PERL5LIB="/home/mikal/perl5/lib/perl5/x86_64-linux-thread-multi:/home/mikal/perl5/lib/perl5:$PERL5LIB";
-export PATH="$PATH:/home/mikal/.gem/ruby/2.0.0/bin"
-export LANGUAGE=en_US.UTF-8
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-vt=$(fgconsole 2>/dev/null)
-(( vt == 1 )) && exec startx -- vt$vt &> ~/.xlog
-unset vt
-#export CCACHE_DIR=/tmp
 #
 # Fixing Tmux window name bug
 DISABLE_AUTO_TITLE=true
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games

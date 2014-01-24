@@ -32,15 +32,16 @@ alias ln='ln -i'
 alias wget='wget -c'
 alias c='clear'
 alias svim='sudo vim'
+alias webvideo='quvi $1 --exec "vlc %u" '
 
 # Python Quick Web Server (Perfect for sharing files via HTTP fast & easy!)
 alias sharethis='python -m http.server'
 
 # Pacman
 alias pacman='sudo pacman'
-alias up='sudo pacman -Syu'
-alias mup='sudo pacman -Syy'
-alias ins='sudo pacman -S'
+#alias up='sudo pacman -Syu'
+#alias mup='sudo pacman -Syy'
+#alias ins='sudo pacman -S'
 alias pas='sudo pacman -Ss'
 alias packs='sudo pacman -Q'
 alias aur='sudo pacman -Qm'
@@ -48,9 +49,15 @@ alias aur='sudo pacman -Qm'
 # Yaourt
 alias yup='yaourt -Syu --aur'
 
+# Aptitude
+alias mup="sudo apt-get update"
+alias up="sudo apt-get upgrade"
+alias ins="sudo apt-get install"
+
+
 # Power
-alias halt='sudo halt'
-alias reboot='sudo reboot'
+#alias halt='sudo halt'
+#alias reboot='sudo reboot'
 
 # Minecraft
 #alias minecraft='/home/server/RAID/Minecraft/./minecraft'
