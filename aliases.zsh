@@ -1,11 +1,11 @@
 # LS
-alias ls='ls++'
-alias lso='ls --potsf'
+##alias ls='ls++'
+##alias lso='ls --potsf'
 # Color Output
 alias grep='grep --color=auto'
 
 # Better Output
-alias df="pydf -H"
+##alias df="pydf -H"
 alias free='free -mt'
 alias tmux='tmux -2'
 
@@ -38,21 +38,21 @@ alias webvideo='quvi $1 --exec "vlc %u" '
 alias sharethis='python -m http.server'
 
 # Pacman
-alias pacman='sudo pacman'
+#alias pacman='sudo pacman'
 #alias up='sudo pacman -Syu'
 #alias mup='sudo pacman -Syy'
 #alias ins='sudo pacman -S'
-alias pas='sudo pacman -Ss'
-alias packs='sudo pacman -Q'
-alias aur='sudo pacman -Qm'
+#alias pas='sudo pacman -Ss'
+#alias packs='sudo pacman -Q'
+#alias aur='sudo pacman -Qm'
 
 # Yaourt
-alias yup='yaourt -Syu --aur'
+#alias yup='yaourt -Syu --aur'
 
 # Aptitude
-alias mup="sudo apt-get update"
-alias up="sudo apt-get upgrade"
-alias ins="sudo apt-get install"
+#alias mup="sudo apt-get update"
+#alias up="sudo apt-get upgrade"
+#alias ins="sudo apt-get install"
 
 
 # Power
