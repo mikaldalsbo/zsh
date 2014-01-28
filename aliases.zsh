@@ -8,6 +8,7 @@ alias grep='grep --color=auto'
 ##alias df="pydf -H"
 alias free='free -mt'
 alias tmux='tmux -2'
+alias gst='git status --ignore-submodules=dirty'
 
 # Sublime Text
 #alias subl='st'
